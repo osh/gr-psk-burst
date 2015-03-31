@@ -77,7 +77,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>500e3</value>
+      <value>100e3</value>
     </param>
     <param>
       <key>alias</key>
@@ -589,49 +589,6 @@
     </param>
   </block>
   <block>
-    <key>burst_synchronizer_v3</key>
-    <param>
-      <key>id</key>
-      <value>burst_synchronizer_v3_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>False</value>
-    </param>
-    <param>
-      <key>sps</key>
-      <value>2.0</value>
-    </param>
-    <param>
-      <key>fs</key>
-      <value>int(samp_rate)</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(480, 803)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
     <key>es_sink</key>
     <param>
       <key>id</key>
@@ -739,53 +696,6 @@
     <param>
       <key>_rotation</key>
       <value>180</value>
-    </param>
-  </block>
-  <block>
-    <key>burst_preamble_correlator</key>
-    <param>
-      <key>id</key>
-      <value>burst_preamble_correlator_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>sps</key>
-      <value>2</value>
-    </param>
-    <param>
-      <key>ro</key>
-      <value>0.35</value>
-    </param>
-    <param>
-      <key>pre</key>
-      <value>[0,0,0,0,0,0,1,1,0,1,1,0,1,1,0,0,1,1,1,1,0,0,0,0]</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(624, 131)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
     </param>
   </block>
   <block>
@@ -1136,76 +1046,6 @@
     </param>
   </block>
   <block>
-    <key>pyqt_const_plot</key>
-    <param>
-      <key>id</key>
-      <value>pyqt_const_plot_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>gui_hint</key>
-      <value>2,0</value>
-    </param>
-    <param>
-      <key>l</key>
-      <value></value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(496, 675)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>pyqt_cpower_plot</key>
-    <param>
-      <key>id</key>
-      <value>pyqt_cpower_plot_0_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>gui_hint</key>
-      <value>1,1</value>
-    </param>
-    <param>
-      <key>l</key>
-      <value></value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(152, 683)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>180</value>
-    </param>
-  </block>
-  <block>
     <key>pyqt_meta_text_output</key>
     <param>
       <key>id</key>
@@ -1234,41 +1074,6 @@
     <param>
       <key>_rotation</key>
       <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>pyqt_cpower_plot</key>
-    <param>
-      <key>id</key>
-      <value>pyqt_cpower_plot_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>gui_hint</key>
-      <value>1,0</value>
-    </param>
-    <param>
-      <key>l</key>
-      <value></value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(32, 451)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>180</value>
     </param>
   </block>
   <block>
@@ -1346,22 +1151,22 @@
     </param>
   </block>
   <block>
-    <key>pyqt_time_plot</key>
+    <key>pyqt_cpower_plot</key>
     <param>
       <key>id</key>
-      <value>pyqt_time_plot_0</value>
+      <value>pyqt_cpower_plot_0_0</value>
     </param>
     <param>
       <key>_enabled</key>
-      <value>False</value>
+      <value>True</value>
     </param>
     <param>
       <key>gui_hint</key>
-      <value>3,0,1,2</value>
+      <value>1,1</value>
     </param>
     <param>
       <key>l</key>
-      <value></value>
+      <value>Burst Post Length-D</value>
     </param>
     <param>
       <key>alias</key>
@@ -1373,7 +1178,77 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(200, 899)</value>
+      <value>(152, 675)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>180</value>
+    </param>
+  </block>
+  <block>
+    <key>pyqt_cpower_plot</key>
+    <param>
+      <key>id</key>
+      <value>pyqt_cpower_plot_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value>1,0</value>
+    </param>
+    <param>
+      <key>l</key>
+      <value>Burst Envelope</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(32, 451)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>180</value>
+    </param>
+  </block>
+  <block>
+    <key>pyqt_const_plot</key>
+    <param>
+      <key>id</key>
+      <value>pyqt_const_plot_0_0_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value>4,0</value>
+    </param>
+    <param>
+      <key>l</key>
+      <value>Sym CFO Corr</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1072, 755)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1381,18 +1256,100 @@
     </param>
   </block>
   <block>
-    <key>pyqt_pdu_meta_extract</key>
+    <key>pyqt_time_plot</key>
     <param>
       <key>id</key>
-      <value>pyqt_pdu_meta_extract_0</value>
+      <value>pyqt_time_plot_1</value>
     </param>
     <param>
       <key>_enabled</key>
       <value>True</value>
     </param>
     <param>
-      <key>k</key>
-      <value>pmt.intern("es::event_time")</value>
+      <key>gui_hint</key>
+      <value>4,1</value>
+    </param>
+    <param>
+      <key>l</key>
+      <value>XCorr Mags</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1072, 811)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>parameter</key>
+    <param>
+      <key>id</key>
+      <value>pre_bits</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value></value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>[0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0]</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value></value>
+    </param>
+    <param>
+      <key>short_id</key>
+      <value></value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(576, 51)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>burst_preamble_correlator</key>
+    <param>
+      <key>id</key>
+      <value>burst_preamble_correlator_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>sps</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>ro</key>
+      <value>0.35</value>
+    </param>
+    <param>
+      <key>pre</key>
+      <value>pre_bits</value>
     </param>
     <param>
       <key>alias</key>
@@ -1412,112 +1369,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(176, 827)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>pyqt_value_plot</key>
-    <param>
-      <key>id</key>
-      <value>pyqt_value_plot_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>gui_hint</key>
-      <value>3,0,0,1</value>
-    </param>
-    <param>
-      <key>l</key>
-      <value></value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(432, 963)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>pyqt_const_plot</key>
-    <param>
-      <key>id</key>
-      <value>pyqt_const_plot_0_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>gui_hint</key>
-      <value>2,1</value>
-    </param>
-    <param>
-      <key>l</key>
-      <value></value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(976, 659)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>pyqt_const_plot</key>
-    <param>
-      <key>id</key>
-      <value>pyqt_const_plot_0_0_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>gui_hint</key>
-      <value>4,0</value>
-    </param>
-    <param>
-      <key>l</key>
-      <value></value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(984, 787)</value>
+      <value>(624, 131)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1560,7 +1412,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(488, 731)</value>
+      <value>(512, 712)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1568,10 +1420,10 @@
     </param>
   </block>
   <block>
-    <key>pyqt_time_plot</key>
+    <key>pyqt_const_plot</key>
     <param>
       <key>id</key>
-      <value>pyqt_time_plot_1</value>
+      <value>pyqt_const_plot_0</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -1579,11 +1431,11 @@
     </param>
     <param>
       <key>gui_hint</key>
-      <value>4,1</value>
+      <value>2,0</value>
     </param>
     <param>
       <key>l</key>
-      <value></value>
+      <value>Pre-Sync Syms</value>
     </param>
     <param>
       <key>alias</key>
@@ -1595,7 +1447,42 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(960, 859)</value>
+      <value>(512, 827)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>pyqt_const_plot</key>
+    <param>
+      <key>id</key>
+      <value>pyqt_const_plot_0_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value>2,1</value>
+    </param>
+    <param>
+      <key>l</key>
+      <value>Final Syms</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1072, 675)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1675,12 +1562,6 @@
     <sink_key>cpdus</sink_key>
   </connection>
   <connection>
-    <source_block_id>burst_length_detect_c_0</source_block_id>
-    <sink_block_id>burst_synchronizer_v3_0</sink_block_id>
-    <source_key>cpdus</source_key>
-    <sink_key>cpdus</sink_key>
-  </connection>
-  <connection>
     <source_block_id>es_handler_pdu_0</source_block_id>
     <sink_block_id>pyqt_meta_text_output_0</sink_block_id>
     <source_key>pdus_out</source_key>
@@ -1709,24 +1590,6 @@
     <sink_block_id>qtgui_time_sink_x_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>pyqt_pdu_meta_extract_0</source_block_id>
-    <sink_block_id>pyqt_time_plot_0</sink_block_id>
-    <source_key>values</source_key>
-    <sink_key>pdus</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>burst_length_detect_c_0</source_block_id>
-    <sink_block_id>pyqt_pdu_meta_extract_0</sink_block_id>
-    <source_key>cpdus</source_key>
-    <sink_key>pdus</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>pyqt_pdu_meta_extract_0</source_block_id>
-    <sink_block_id>pyqt_value_plot_0</sink_block_id>
-    <source_key>values</source_key>
-    <sink_key>reals</sink_key>
   </connection>
   <connection>
     <source_block_id>burst_synchronizer_v4_0</source_block_id>
