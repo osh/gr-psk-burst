@@ -1455,49 +1455,6 @@
     </param>
   </block>
   <block>
-    <key>burst_framealign</key>
-    <param>
-      <key>id</key>
-      <value>burst_framealign_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>skip</key>
-      <value>len(pre_bits)*2-2</value>
-    </param>
-    <param>
-      <key>bs</key>
-      <value>1024</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(464, 955)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
     <key>mapper_demapper_msg</key>
     <param>
       <key>id</key>
@@ -1534,41 +1491,6 @@
     <param>
       <key>_coordinate</key>
       <value>(64, 955)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>pyqt_time_plot</key>
-    <param>
-      <key>id</key>
-      <value>pyqt_time_plot_1_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>gui_hint</key>
-      <value>4,1,1,1</value>
-    </param>
-    <param>
-      <key>l</key>
-      <value>Soft Bits</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(464, 891)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1623,6 +1545,10 @@
     <param>
       <key>gui_hint</key>
       <value>4,0</value>
+    </param>
+    <param>
+      <key>style</key>
+      <value>line</value>
     </param>
     <param>
       <key>l</key>
@@ -1756,6 +1682,88 @@
     <param>
       <key>_coordinate</key>
       <value>(1128, 968)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>pyqt_time_plot</key>
+    <param>
+      <key>id</key>
+      <value>pyqt_time_plot_1_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value>4,1,1,1</value>
+    </param>
+    <param>
+      <key>style</key>
+      <value>dots</value>
+    </param>
+    <param>
+      <key>l</key>
+      <value>Soft Bits</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(464, 891)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>burst_framealign</key>
+    <param>
+      <key>id</key>
+      <value>burst_framealign_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>skip</key>
+      <value>len(pre_bits)</value>
+    </param>
+    <param>
+      <key>bs</key>
+      <value>1024</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(464, 955)</value>
     </param>
     <param>
       <key>_rotation</key>
